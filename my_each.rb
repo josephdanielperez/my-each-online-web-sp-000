@@ -1,6 +1,7 @@
-def my_each(words)
-  while words > 0
-    yield
-    "I don't know"
+def my_each(array)
+  i = 0
+  while array.length > i
+    yield(array[i])
+    i = i + 1
   end
 end
