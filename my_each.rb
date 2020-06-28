@@ -1,6 +1,6 @@
-def my_each(array)
-  while array > 0
+def my_each(words)
+  while words > 0
     yield
-    "I don't know"
+    puts |words|
   end
 end
