@@ -1,4 +1,4 @@
-def my_each
-  while
+def my_each(array)
+  while array
   end
 end
